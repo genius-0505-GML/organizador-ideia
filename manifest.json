@@ -1,0 +1,10 @@
+{
+  "name": "Organizador de Ideias",
+  "short_name": "Ideias",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#3d5a80",
+  "icons": [{ "src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

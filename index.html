@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#3d5a80">
+<title>Organizador de Ideias</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/icons/icon.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav id="nav">
+  <div class="brand">🧠 <span>Organizador</span></div>
+  <a href="#/home" data-r="home"><i>🏠</i><span>Home</span></a>
+  <a href="#/folders" data-r="folders"><i>📁</i><span>Pastas</span></a>
+  <a href="#/priorities" data-r="priorities"><i>⭐</i><span>Prior.</span></a>
+  <a href="#/settings" data-r="settings" class="cfg"><i>⚙️</i><span>Config</span></a>
+</nav>
+<main id="view" class="view"></main>
+<div id="toast"></div>
+<script src="js/db.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/folders.js"></script>
+<script src="js/notes.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
